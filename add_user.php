@@ -10,8 +10,8 @@
 <?php 
      include 'conn.php';
 
-    $sql= "insert into user(first_name, last_name, email, pass_word)
-    values('$_POST[firstname]', '$_POST[lastname]', '$_POST[email]', '$_POST[password]')";
+    $sql= insert into user(first_name, last_name, email, pass_word)
+    values('$_POST[firstname]', '$_POST[lastname]', '$_POST[email]', '$_POST[password]');
 
             if(!mysqli_query($conn, $sql)){
 
